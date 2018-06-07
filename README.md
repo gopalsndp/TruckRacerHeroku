@@ -1,11 +1,57 @@
-# template-spa-node-knockoutjs
+# TruckRacer
 
-## Toolchain
+Truck Racing is a simple single page game application designed using following libraries/technologies:
 
-* sudo npm install -g bower
-* bower install ko.plus 
+- Javascript - [KnockoutJS] and [Jquery]
 
-## References
+- CSS - [BootStrap] and [FontAwesome]
 
-* [Single Page Applications using Node and Knockout](http://blog.greatrexpectations.com/2013/01/23/single-page-applications-using-node-knockout/)
-* [Checking in front-end dependencies - A walkthrough of options for Bower](http://addyosmani.com/blog/checking-in-front-end-dependencies/)
+- HTML5
+
+
+
+## Steps to run the application
+
+1) In command prompt, go to TruckRacer/RacerGame folder.
+
+2) Run simple "grunt" command without any parameters. This will run truckracer application on port 8080 using grunt-connect from gruntfile.js file.
+
+3) Go to any web browser and paste the url: http://localhost:8080.
+
+
+
+*Commands for the above steps:*
+
+```sh
+
+$ cd TruckRacer/RacerGame
+
+$ grunt
+```
+
+
+
+### Project Details
+The project is seperated in the folders as follows:
+
+- css - styling changes 
+
+- helper - helper classes
+
+- img - images
+
+- js - javascript files
+
+- lib - external libraries
+
+- views - html pages
+
+ 
+
+[JQuery]: <http://jquery.com>
+ 
+[KnockoutJS]: <http://knockoutjs.com/>
+ 
+[Bootstrap]: <http://getbootstrap.com/>
+ 
+[FontAwesome]: <http://fontawesome.io/>
